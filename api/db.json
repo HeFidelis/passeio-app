@@ -6,24 +6,19 @@
       "descricao": "Lugares para fazer compras e passear"
     },
     {
-      "nome": "Restaurantes Atualizado",
-      "descricao": "Lugares para alimentação",
-      "id": "8f04"
-    },
-    {
       "id": "6970",
       "nome": "Praias",
       "descricao": "Lugares para tomar banho com a família"
     },
     {
-      "id": "19a3",
-      "nome": "teste",
-      "descricao": "teste"
+      "id": "5191",
+      "nome": "Bares",
+      "descricao": "Lugares para jogar conversa fora e tomar uma gelada."
     },
     {
-      "id": "18e5",
-      "nome": "teste 2",
-      "descricao": "teste 2"
+      "id": "cc71",
+      "nome": "Parques",
+      "descricao": "Lugares para passear com a família, fazer caminhadas e realizar atividades físicas ao ar livre."
     }
   ],
   "lugares": [
@@ -33,6 +28,22 @@
       "categoria": "Praias",
       "localizacao": "Rio de Janeiro",
       "urlFoto": "teste",
+      "avaliacao": "4"
+    },
+    {
+      "id": "aae6",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/11/praia-do-espelho-capa2019.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "8ed9",
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://www.mercadoeeventos.com.br/wp-content/uploads/2017/06/parque-do-ibirapuera.jpg",
       "avaliacao": "4"
     }
   ]

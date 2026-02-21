@@ -13,10 +13,13 @@
         placeholder="Ex: Praia do Sol, Restaurante Estrela"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+      @if (isCampoInvalido('nome')) {
+        <span class="text-red-500 text-sm">Campo Obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
-      <label for="nome" class="block text-gray-600 font-medium mt-2 mb-2">Categoria</label>
+      <label for="categoria" class="block text-gray-600 font-medium mt-2 mb-2">Categoria</label>
       <select
         id="categoria"
         name="categoria"
@@ -30,6 +33,9 @@
           </option>
         }
       </select>
+      @if (isCampoInvalido('categoria')) {
+        <span class="text-red-500 text-sm">Campo Obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
@@ -42,6 +48,9 @@
         placeholder="Ex: São Paulo"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+      @if (isCampoInvalido('localizacao')) {
+        <span class="text-red-500 text-sm">Campo Obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
@@ -54,6 +63,9 @@
         placeholder="Ex: http://exemplo.com/foto.jpg"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
       />
+      @if (isCampoInvalido('urlFoto')) {
+        <span class="text-red-500 text-sm">Campo Obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
@@ -71,6 +83,9 @@
         <option [value]="4">4 - Muito Bom</option>
         <option [value]="5">5 - Excelente</option>
       </select>
+      @if (isCampoInvalido('avaliacao')) {
+        <span class="text-red-500 text-sm">Campo Obrigatório</span>
+      }
     </div>
 
     <button
