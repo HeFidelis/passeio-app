@@ -30,7 +30,7 @@ export class Categoria {
             this.camposForm.reset();
           },
           error: erro => console.log("Ocorreu um erro: ", erro)
-                  });
+        });
 
     }
   }
