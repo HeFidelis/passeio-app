@@ -9,6 +9,21 @@
       "nome": "Restaurantes Atualizado",
       "descricao": "Lugares para alimentação",
       "id": "8f04"
+    },
+    {
+      "id": "6970",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a família"
+    },
+    {
+      "id": "19a3",
+      "nome": "teste",
+      "descricao": "teste"
+    },
+    {
+      "id": "18e5",
+      "nome": "teste 2",
+      "descricao": "teste 2"
     }
   ]
 }
