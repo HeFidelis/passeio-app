@@ -6,7 +6,7 @@ import { Router } from '@angular/router'
 @Injectable({
   providedIn: 'root',
 })
-export class Authgoogle {
+export class AuthgoogleService {
 
   private oauthService: OAuthService = inject(OAuthService);
   private router: Router = inject(Router);
@@ -35,5 +35,9 @@ export class Authgoogle {
     this.oauthService.logOut();
     this.profile.set(null);
     this.router.navigate(['']);
+  }
+
+  getLoggedProfile(){
+    return this.profile();
   }
 }
