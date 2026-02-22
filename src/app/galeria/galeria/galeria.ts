@@ -35,6 +35,7 @@ export class Galeria implements OnInit {
   }
 
   filtrar(){
+
     this.lugarService.filtrar(this.nomeFiltro, this.categoriaFiltro)
       .subscribe(resultado => this.lugares = resultado);
   }
