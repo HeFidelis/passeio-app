@@ -1,0 +1,34 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "6970",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a família"
+    },
+    {
+      "id": "5191",
+      "nome": "Bares",
+      "descricao": "Lugares para jogar conversa fora e tomar uma gelada."
+    },
+    {
+      "id": "cc71",
+      "nome": "Parques",
+      "descricao": "Lugares para passear com a família, fazer caminhadas e realizar atividades físicas ao ar livre."
+    }
+  ],
+  "lugares": [
+    {
+      "id": "22a8",
+      "nome": "Praia do Encanto",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "https://www.praias-360.com.br/img-600/rj/armacao-dos-buzios/rj-armacao-dos-buzios-praia-de-ze-goncalves-010.jpg",
+      "avaliacao": "4"
+    }
+  ]
+}
